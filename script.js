@@ -29,7 +29,7 @@ function setindicator(color){
     indicator.style.backgroundColor = color;
     indicator.style.boxShadow = `0px 0px 12px 1px ${color}`
 }
-
+//function to produce random number
 function getRndInteger(min,max){
     return Math.floor(Math.random()*(max-min))+min;
 }
@@ -167,4 +167,5 @@ generatebtn.addEventListener('click',() =>{
         console.log("UI adddition done");
         //calculate strength
         calcStrength(); 
+
 });
